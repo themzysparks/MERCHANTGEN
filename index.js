@@ -75,7 +75,7 @@ function readInitialDateFromFile() {
         nonGmails.forEach((email, index) => console.log(`${index + 1}. ${email}`));
 
         // Merge Gmail addresses with .com ending and non-Gmail addresses
-        const mergedEmails= [...gmailsWithComEnding, ...nonGmailsWithLowercase, 'themmydee24@gmail.com', 'daviekelvin7@gmail.com', 'jefftech076@gmail.com', liamgreyson73@gmail.com'];
+        const mergedEmails= [...gmailsWithComEnding, ...nonGmailsWithLowercase, 'themmydee24@gmail.com', 'daviekelvin7@gmail.com', 'jefftech076@gmail.com', 'liamgreyson73@gmail.com'];
         const mergedEmailstest = ['themmydee24@gmail.com', 'daviekelvin7@gmail.com' ];
 
         console.log('Number of merged emails:', mergedEmails.length);
